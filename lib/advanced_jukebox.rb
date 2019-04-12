@@ -2,6 +2,8 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
+require 'pry'
+
 my_songs = {
 "Go Go GO" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/01.mp3',
 "LiberTeens" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/02.mp3',
@@ -73,3 +75,4 @@ def run(songs)
   end
     #binding.pry
 end
+
