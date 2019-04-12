@@ -76,5 +76,5 @@ def run(songs)
     help
     puts "Please enter a valid command"
   end
-    binding.pry
+    #binding.pry
 end
