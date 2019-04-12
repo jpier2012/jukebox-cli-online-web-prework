@@ -12,6 +12,9 @@ my_songs = {
 "Graduation Failed" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/07.mp3'
 }
 
+##########
+##########
+
 def help
   puts "I accept the following commands:"
   puts "- help : displays this help message"
@@ -20,13 +23,15 @@ def help
   puts "- exit : exits this program"
 end
 
-
+##########
+##########
 
 def list(my_songs)
-  #this method is different! Collect the keys of the my_songs hash and
-  #list the songs by name
+  song_list = my_songs.keys
 end
 
+##########
+##########
 
 def play(my_songs)
   #this method is slightly different!
@@ -39,10 +44,33 @@ def play(my_songs)
 
 end
 
+##########
+##########
+
 def exit_jukebox
-  #this method is the same as in jukebox.rb
+  puts "Goodbye"
+  exit
 end
 
-def run(my_songs)
-  #this method is the same as in jukebox.rb
+##########
+##########
+
+def run(songs)
+  input = gets.chomp
+
+  case input
+  when input.include?("help")
+    help
+  when input.include?("list")
+    list(songs)
+  when input.include?("play")
+    play(songs)
+  when input.include?("exit")
+    exit_jukebox
+  else
+    help
+  puts "Please enter a valid command"
+  end
+    #binding.pry
 end
+
