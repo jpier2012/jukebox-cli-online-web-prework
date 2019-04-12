@@ -28,9 +28,8 @@ end
 ##########
 
 def list(songs)
-  songs.each_with_index {|index, value|
-    song = index + 1
-    puts "#{song}. #{value}"
+  songs.each_with_index {|value, index|
+    puts "#{index + 1}. #{value}"
   }
 end
 
