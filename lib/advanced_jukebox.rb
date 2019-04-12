@@ -2,15 +2,15 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
-# }
+my_songs = {
+"Go Go GO" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/01.mp3',
+"LiberTeens" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/03.mp3',
+"Guiding Light" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/04.mp3',
+"Wolf" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/05.mp3',
+"Blue" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => 'C:/Users/Jimmers/.atom/.learn-ide/home/jpier2012/jukebox-cli/audio/Emerald-Park/07.mp3'
+}
 
 def help
   #this method should be the same as in jukebox.rb
