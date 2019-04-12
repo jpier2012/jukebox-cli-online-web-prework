@@ -29,7 +29,7 @@ end
 
 def list(songs)
   songs.each_with_index {|index, value|
-    puts "#{index+1}. #{value}"
+    puts "#{(index+1)}. #{value}"
   }
 end
 
@@ -74,7 +74,7 @@ def run(songs)
     exit_jukebox
   else
     help
-    puts "Please enter a valid command"
+  puts "Please enter a valid command"
   end
     #binding.pry
 end
