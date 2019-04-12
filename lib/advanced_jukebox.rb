@@ -30,6 +30,7 @@ end
 
 def list(my_songs)
   song_list = my_songs.keys
+  pry
 end
 
 ##########
